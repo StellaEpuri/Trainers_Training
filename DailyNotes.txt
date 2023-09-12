@@ -1,0 +1,206 @@
+JAVA:
+=====
+
+JAva is programming language.
+
+Language:
+---------
+communicate with each other
+eg:telugu,english,hindi...
+
+Programming language:
+---------------------
+communicate with the machine
+
+machine language...0's & 1's....Binary language.
+
+used to develop....softwares/applications
+
+2types of applications:
+
+1.standalone/desktop applications:
+	eg:calculator,antivirus...
+	
+2.Distributed/network applications:
+	eg:gmail,instagram,...
+	
+2types of programming language:
+================================
+1.POP:
+2.OOP:	
+
+1.Procedure Oriented Programming
+	eg:c,b,cobol,....
+2.Object Oriented Programming
+	eg:java,c++,python,.Net,....
+	
+oop offers:
+
+1.Performance
+2.Security	
+
+OOP paradigm:
+=============
+1.Inheritance
+2.Polymorphism...>>Performance
+
+3.Encapsulation
+4.Abstraction....>>Security
+	
+JAVA:
+=====
+
+Java is a object oriented programming language which is used to build both standalone/desktop 
+
+and distributed applications.
+
+History:
+=========
+developed by sun microsystems in 1995...>>Oracle Corporation.
+
+James Goslings is father of java.
+
+current version :java se 20
+standard version: java se 8,11,17
+
+LTS:Long term support.
+
+3Editions of java:
+==================
+1.JAva Standard Edition(JSE)
+2.Java Enterprise Edition(JEE)
+3.Java Micro/Mobile Edition(JME)
+
+why JAVA??
+==========
+1.Platform Independent:
+WORA:Write Once,Run Anywhere
+
+Welcome.class.........mac(JDK)
+windows(O.S)
+
+2.Garbage Collection....>>Performance
+ 1000 variables
+ 2 variables....//998 variables
+ 
+ GarbageCollector:it will collect unwanted memoryspace
+
+
+Prerequisites to write a java program:
+=======================================
+1.download java software. ( search jdk downloads)
+2.install..... https://www.javatpoint.com/javafx-how-to-install-java
+3.we need editors:notepad,notepad++,Eclipse,IntelliJ,netbeans...
+4.write a program
+5.save the file(.java extension)
+6.compile the program
+7.Execute
+
+Compilation: converting high level language into machine language
+------------
+source code...english(18 international languages)
+
+compilation is done by compiler.
+
+source code .....compiler.....byte code.
+.java file					.class file
+
+Java Program Structure:
+========================
+Class <Classname>{
+
+public static void main(String args[]){
+
+//logic
+
+}
+}
+
+To compile: javac Filename.java
+
+To Execute: java Classname
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
