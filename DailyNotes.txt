@@ -120,11 +120,138 @@ To compile: javac Filename.java
 
 To Execute: java Classname
 
+Day-2:
+======
+JDK,JRE and JVM:
+================
 
+https://www.javatpoint.com/difference-between-jdk-jre-and-jvm
 
+Variables and DAtatypes:
+=========================
+A variable is a container which is used to hold the values while the program is being executed.
 
+>>A Variable is the name for the memory location.
 
+Syn: datatype variablename= data/value; //declaration and initialization
 
+Eg:   int age=25;
+   int age; //declaration
+   int age= 23;//initialization
+   
+   DATATYPES:
+   ==========
+   Datatypes specify the type of data that can be stored in a variable.
+   
+   2types:
+   1.Primitive datatypes
+   2.NOn-primitive datatypes(Strings,Arrays,Classes,...)
+   
+   1.Primitive dt:
+    >> 1.Integer.....byte,short,int,long
+		2.Float......float,double
+		3.Character..char
+		4.Boolean....boolean
+
+		1byte=8bits     Range formula: -2^n-1 to (2^n-1)-1   n...bits
+	
+	D.T				size			Range
+===============================================	
+	byte			1byte           -128 to 127
+	short			2bytes			-32768 to 32767
+	int 			4bytes
+	long			8bytes
+	float			4bytes
+	double			8bytes
+	char			2bytes			0 to 65535(16 bit unsigned unicode characters)
+	boolean			true=1             true/false()
+					false=0
+					
+	String name ="stella"           
+	
+	variables are of 2types:
+	
+	1.local variables
+	2.global variables
+	
+	global variables:
+	
+	1.instance variables
+	2.static variables.... static keyword
+	
+	4proprties:
+	
+			object: instance of a class.
+		
+		 classname objref=new classname();//object creation
+	
+	
+		 variables properties:(same for methods as well)
+	
+	1.syntax:with static keyword we can say static properties,
+		 without static it is called instance.
+		 
+2.memory:static properties will get memory space at the time of class loading into jvm
+	     instance properties will get memory space for every object creation
+		 
+		 what is an object? object is an instance of class. 
+		 instance means it allocates sufficient memory space for all class properties.
+		 using objects,we can access the complete class data/properties.
+		 
+3.How to access:static properties can be accessed by using class name
+	            instance properties can be accessed by using object reference
+				//instance means memory //instanciation memory creation./allocation.
+		   
+		            classname obj=new classname(); //syntax for obj creation
+							A   a = new A(101,abc);// this is how object is created.
+							A   b=new A(102,xyz);
+							
+							(for a class we can have any no.of objects)
+							
+4.when to use:whenever common properties are required we use static keyword(car parking,school name of students in id cards)
+			  whenever unique properties are required we use instance properties.
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
 
 
 
