@@ -131,13 +131,15 @@ Variables and DAtatypes:
 =========================
 A variable is a container which is used to hold the values while the program is being executed.
 
->>A Variable is the name for the memory location.
+>>A Variable is the name for the memory location, where the data gets stored.
+
+vary+able:the values inside the variable can be chnged.
 
 Syn: datatype variablename= data/value; //declaration and initialization
 
 Eg:   int age=25;
    int age; //declaration
-   int age= 23;//initialization
+   int age=23;//initialization
    
    DATATYPES:
    ==========
@@ -171,8 +173,8 @@ Eg:   int age=25;
 	
 	variables are of 2types:
 	
-	1.local variables
-	2.global variables
+	1.local variables:inside method
+	2.global variables:outside method....inside class
 	
 	global variables:
 	
@@ -212,8 +214,86 @@ Eg:   int age=25;
 			  whenever unique properties are required we use instance properties.
 		
 	
+	Methods:
+	========
+	method is a block of code which is used to perform a specific task.
 	
+	syn: [access modifier] <return type> <method name>(parameters(if any))//method header
+	{
 	
+	//logic //method body
+	
+	}
+	
+	eg:public static void main(String args[])
+	
+	//void ..returns nothing
+	
+	**CODE REUSABILITY
+	
+	A method is accessed only when it is called
+	
+	2types:
+	-------
+	predefined
+	 these are predefined inside class libraries
+	
+	eg: main(),print(),..
+	
+	userdefined: written by developers as per requirement.
+	
+	Identifiers:
+	============
+	any name in java is an identifier
+	
+	variablename,method name,class name
+	
+	rules:
+	------
+only allowed characters
+
+   a to z
+   A to Z
+   0 to 9
+   $
+   _(underscore)
+
+ex: total_number (valid)
+      total#      (invalid)
+	  
+* cannot start with digits
+
+    total23(valid)
+	23total(invalid)
+
+*case sensitive
+num=10;
+Num=20;
+NUM=25;
+
+*keywords cannot be used as identifiers
+
+eg: int public=10;
+     int number=10;
+	 
+valid identifiers:
+
+total@(invalid)
+caSh
+ca$h
+_$_$_$
+java2
+int(invalid)
+15keys(invalid)
+
+
+Keywords:
+---------
+53keywords.... alphabets of java
+
+keywords have a key to a code. predefined.
+
+ *keywords are always in lowercase.
 	
 	
 	
