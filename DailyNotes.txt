@@ -296,6 +296,86 @@ keywords have a key to a code. predefined.
  *keywords are always in lowercase.
 	
 	
+	Package:
+	========
+	
+	collection of class libraries.
+	
+	*"package" keyword is used to create a package.
+	
+	to compile: javac -d . filename// -d  specifies the destination where you want to save the class file.
+
+     eg:javac -d . Hello.java
+
+     to run: java packagename.filename
+	 
+	 eg: java com.trainers.training.Hello
+	 
+	 >> "import" keyword is used to access the classes from other packages.
+
+  import packagename.*; //imports all classes and interfaces
+  import package.class;
+ eg: import java.util.scanner;
+ 
+ we have 2types of packages:
+1.predefined package
+2.user defined package
+
+**java.lang is the default package for all java programs.
+** object class is the super class for all the classes in java.(11 methods)
+
+official page: https://docs.oracle.com/javase/8/docs/api/ 
+
+	
+	Runtime i/p:
+	=============
+	to give i/p at the run time we have
+	
+	1.command line arguments
+	*2.Scanner class
+	3.Buffered Reader
+	
+	
+	command line arguments:
+	
+	public static void main(String[] args)
+	
+	public static void display(String name)
+	Classname.display("sandy")
+	
+	array:collection of similar data
+	string name="";
+	string names[]={"stella","25","120.55","true"}
+	*index from 0 ,max index is len-1=4-1=3
+	int[] i=
+	float[]
+	
+	int float
+	
+	WRAPPER CLASSES:
+	================
+	
+	datatype			Wrapperclasses
+	===================================
+	byte					Byte
+	short					Short
+	int						Integer
+	long					Long
+	float					Float
+	double                  Double
+	char					Character
+	boolean					Boolean
+	
+	"25"
+	string   .......   int,float
+	int a=Integer.parseInt(args[0])
+	
+	parseInt(),parseFloat(),,,,static methods
+	
+	
+	
+	
+	
 	
 	
 	
