@@ -355,8 +355,10 @@ official page: https://docs.oracle.com/javase/8/docs/api/
 	WRAPPER CLASSES:
 	================
 	
+	To convert from String class.
+	
 	datatype			Wrapperclasses
-	===================================
+   ====================================
 	byte					Byte
 	short					Short
 	int						Integer
