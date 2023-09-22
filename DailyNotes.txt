@@ -375,33 +375,244 @@ official page: https://docs.oracle.com/javase/8/docs/api/
 	parseInt(),parseFloat(),,,,static methods
 	
 	
+	Scanner class:
+	==============
+	other way to take dynamic i/p from the user.
+	
+	Scanner is a predefined class present in java.util package.
+	
+	import this scanner class 
+	
+	import java.util.Scanner;
+	
+	Scanner sc=new Scanner(System.in);
+	
+	next(),nextInt(),nextFloat()....
 	
 	
+	Flow Controls:
+	===============
+	
+	flow controls describes the order in which the stmts will be executed at runtime.
+	
+	3 types:
+
+	1.selection stmts/decision making stmts
+	2.Iterative stmts/Loop stmts
+	3.Jump stmts/Transfer stmts.
+
+	1.Decision making Statements:
+	==============================
+	Decision making stmts decides which stmt to and when.
+ 
+ 2types:
+ 
+ 1.If statement
+ 2.Switch statement
+ 
+ 1.If statement:
+ 
+ 4types:
+ 
+ 1. simple if
+ 2. if else
+ 3.if else if ladder
+ 4.nested if 
+ 
+ 1.simple if:
+ ============
+evaluates boolean expression
+
+syn:
+
+if(condition){
+statement;// when condition is true
+}
+
+2.if else statement:
+--------------------
+ extension to if.....>> use else block
+ 
+ syn:
+ if(condition){
+statement;// when condition is true
+}
+else{
+statement;//when condition is false.
+}
+ 
+ 3.if else if ladder:
+ ---------------------
+ chain of if else stmts 
+ 
+ if we r having more than 1 condition to evaluate 
+ syn:
+ 
+  if(condition 1){
+statement 1;// when condition 1 is true
+}
+else if(condition 2){
+statement 2;//when condition 2 is true
+}
+else{
+statement 3;//when all conditions are  false.
+}
+
+4.Nested if statement:
+-----------------------
+
+if statement contains if or else if statement inside
+
+syn:
+
+if(condition 1){
+if(condition 2){
+statement 1;//when condition 2 is true
+}else{
+statement 2;// when condition 2 is false
+}
+}
+	
+2.SWITCH STATEMENT:
+--------------------
+Instead of if else-if blocks.
+
+we have multiple blocks of code called cases.
+
+it enhances readability of code.
+
+>>default case gets executed when no case is matched with the switch expression.
+
+syn:
+
+switch(expression){
+case a:
+//code
+break;
+case b:
+//code
+break;
+default:
+//code
+}
+	
+
+	LOOP Statements:
+	================
+	1.for loop
+	2.while loop
+	3.Do-while loop
+	
+	1.For loop:
+	===========
+	{
+	
+	//code
+	}........ 10
+	
+	syn:
+	for(initialization; condition; increment/decrement){
 	
 	
+	}
 	
+	2.While loop:
+	=============
+	if we dont have no. of iterations in advance then will go with while loop.
 	
+	syn:
+	while(Condition){
+	//code
+	}
 	
+	3.Do-While loop:
+	================
 	
+	if we dont have no. of iterations in advance and if we our code to get executed at least once then will go with Do-while loop
 	
+	3.Jump statements:
+	==================
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+   1.break;
+   2.continue;
+   
+   Operators:
+   ==========
+   Operators in Java are the symbols used for performing specific operations in Java.
+   
+   Types of Operators in Java
+There are multiple types of operators in Java all are mentioned below:
+
+Arithmetic Operators
+Unary Operators
+Assignment Operator
+Relational Operators
+Logical Operators
+Ternary Operator
+Bitwise Operators
+Shift Operators
+instance of operator
+   
+   +,-,*,/,>,<,..........
+   
+   i++,...>>i+1
+   i--....>i-1
+   
+  ++: Increment operators. 
+  =========================
+Post-Increment: Value is first used for computing the result and then incremented.
+Pre-Increment: Value is incremented first, and then the result is computed.
+
+– –  : Decrement operator, used for decrementing the value by 1. There are two varieties of decrement operators. 
+
+Post-decrement: Value is first used for computing the result and then decremented.
+Pre-Decrement: The value is decremented first, and then the result is computed.
+
+! : Logical not operator, used for inverting a boolean value.
+   
+   i=10
+   i++...>>11
+   syso(i);10....11
+   
+   i--;11,10
+   syso(i);
+   i
+   
+   
+   Assignment operators:
+   ====================
+   1. =
+   
+   2.+=,-=,*=,/=,
+   
+   a+=1;....>a=a+1;
+   i+=5;.....i=i+5;
+   
+   Relational Operators:
+   ======================
+   
+   ==,>,<,>=,<=,!=
+   
+   Logical operators:
+   ==================
+   &&....AND...
+   ||.....OR
+   !......NOT
+   
+   
+   Ternary Operator:
+   ==================
+   (condition)?expression1:expression2
+   
+   (a>b)?a is greatest:a is smallest
+   
+   
+   
+   
+   
+   
+   
+   
    
    
    
